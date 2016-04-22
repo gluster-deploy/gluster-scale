@@ -8,11 +8,13 @@ Pre-requisites:
    * We create a single VG, the logical volumes are created on demand.
 
    Run the below command to create a volume on a given list of devices.
+  
    $ gdeploy -c vg_create.conf
 
 2. Create LV and a volume
    * Execute the script volcreate.sh which will modify the volume create template
      and run it using gdeploy. The script by default creates 256 volumes, modify
      to suit your needs.
+
 
    $ sh volcreate.sh
